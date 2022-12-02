@@ -116,7 +116,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true){
                     // Connecting to the Database
                 $servername = "172.31.91.110";
                 $username = "root";
-                $password = "";
+                $password = "root";
                 $database = "students";
                 $fName=$_POST['fName'];
                 $lName=$_POST['lName'];

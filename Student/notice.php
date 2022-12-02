@@ -3,7 +3,7 @@
 session_start();
 
 if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true){
-    header("location: login_teacher.php");
+    header("location: login_student.php");
     exit;
 }
 ?>
@@ -103,7 +103,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true){
             // Connecting to the Database
                 $servername = "172.31.91.110";
                 $username = "root";
-                $password = "";
+                $password = "root";
                 $database = "teachers";
 
                 // Create a connection

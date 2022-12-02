@@ -29,7 +29,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true){
    // Connecting to the Database
        $servername = "172.31.91.110";
        $username = "root";
-       $password = "";
+       $password = "root";
        $database = "teachers";
        $filename = $_FILES["uploadfile"]["name"];
        $tempname = $_FILES["uploadfile"]["tmp_name"];

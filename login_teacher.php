@@ -10,7 +10,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 	 // Connecting to the Database
 	 $servername = "172.31.91.110";
 	 $username = "root";
-	 $password = "";
+	 $password = "root";
 	 $database = "teachers";
 
 	  // Create a connection
